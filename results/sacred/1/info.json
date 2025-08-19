@@ -1,0 +1,189 @@
+{
+  "ep_length_mean": [
+    150.0,
+    150.0
+  ],
+  "ep_length_mean_T": [
+    150,
+    10200
+  ],
+  "episode": [
+    67
+  ],
+  "episode_T": [
+    10050
+  ],
+  "episode_limit_mean": [
+    1.0,
+    1.0
+  ],
+  "episode_limit_mean_T": [
+    150,
+    10200
+  ],
+  "epsilon": [
+    1.0,
+    0.80905
+  ],
+  "epsilon_T": [
+    150,
+    10200
+  ],
+  "grad_norm": [
+    {
+      "py/reduce": [
+        {
+          "py/function": "torch._utils._rebuild_tensor_v2"
+        },
+        {
+          "py/tuple": [
+            {
+              "py/reduce": [
+                {
+                  "py/function": "torch.storage._load_from_bytes"
+                },
+                {
+                  "py/tuple": [
+                    {
+                      "py/b64": "gAKKCmz8nEb5IGqoUBkugAJN6QMugAJ9cQAoWBAAAABwcm90b2NvbF92ZXJzaW9ucQFN6QNYDQAAAGxpdHRsZV9lbmRpYW5xAohYCgAAAHR5cGVfc2l6ZXNxA31xBChYBQAAAHNob3J0cQVLAlgDAAAAaW50cQZLBFgEAAAAbG9uZ3EHSwR1dS6AAihYBwAAAHN0b3JhZ2VxAGN0b3JjaApGbG9hdFN0b3JhZ2UKcQFYDQAAADIyMDc3OTkwNjMyNDhxAlgGAAAAY3VkYTowcQNLAU50cQRRLoACXXEAWA0AAAAyMjA3Nzk5MDYzMjQ4cQFhLgEAAAAAAAAAIS9gPw=="
+                    }
+                  ]
+                }
+              ]
+            },
+            0,
+            {
+              "py/tuple": []
+            },
+            {
+              "py/tuple": []
+            },
+            false,
+            {
+              "py/reduce": [
+                {
+                  "py/type": "collections.OrderedDict"
+                },
+                {
+                  "py/tuple": []
+                },
+                null,
+                null,
+                {
+                  "py/tuple": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "grad_norm_T": [
+    4800
+  ],
+  "loss": [
+    0.8664140105247498
+  ],
+  "loss_T": [
+    4800
+  ],
+  "q_taken_mean": [
+    0.05045408460828993
+  ],
+  "q_taken_mean_T": [
+    4800
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 14.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 15.671641791044776
+    }
+  ],
+  "return_mean_T": [
+    150,
+    10200
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 8.934902315866381
+    }
+  ],
+  "return_std_T": [
+    150,
+    10200
+  ],
+  "target_mean": [
+    0.07732152303059896
+  ],
+  "target_mean_T": [
+    4800
+  ],
+  "td_error_abs": [
+    0.26667261759440103
+  ],
+  "td_error_abs_T": [
+    4800
+  ],
+  "test_ep_length_mean": [
+    150.0,
+    150.0
+  ],
+  "test_ep_length_mean_T": [
+    150,
+    10200
+  ],
+  "test_episode_limit_mean": [
+    1.0,
+    1.0
+  ],
+  "test_episode_limit_mean_T": [
+    150,
+    10200
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 17.4
+    }
+  ],
+  "test_return_mean_T": [
+    150,
+    10200
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 10.734989520255715
+    }
+  ],
+  "test_return_std_T": [
+    150,
+    10200
+  ]
+}

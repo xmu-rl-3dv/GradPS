@@ -1,0 +1,90 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "E:\\python\\GradPS\\src",
+    "dependencies": [
+      "munch==2.5.0",
+      "numpy==1.21.6",
+      "sacred==0.8.2",
+      "torch==1.13.0"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [
+      {
+        "commit": "1f22b90396ae93bbda19508edc83f38538af3069",
+        "dirty": true,
+        "url": "https://github.com/xmu-rl-3dv/GradPS.git"
+      },
+      {
+        "commit": "1f22b90396ae93bbda19508edc83f38538af3069",
+        "dirty": true,
+        "url": "https://github.com/xmu-rl-3dv/GradPS.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources\\main_efbcb2972f222cb7e3d4b7d77f502680.py"
+      ],
+      [
+        "utils\\logging.py",
+        "_sources\\logging_cb64af7217f04ab93022c433c1285b4c.py"
+      ]
+    ]
+  },
+  "heartbeat": "2025-08-19T17:49:22.353720",
+  "host": {
+    "ENV": {},
+    "cpu": "Unknown",
+    "gpus": {
+      "driver_version": "537.70",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 2050",
+          "persistence_mode": false,
+          "total_memory": 4096
+        }
+      ]
+    },
+    "hostname": "LAPTOP-CLOI56UV",
+    "os": [
+      "Windows",
+      "Windows-10-10.0.26100-SP0"
+    ],
+    "python_version": "3.7.12"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2025-08-19T17:46:51.966550",
+  "status": "RUNNING"
+}

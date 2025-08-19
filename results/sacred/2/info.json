@@ -1,0 +1,72 @@
+{
+  "ep_length_mean": [
+    150.0
+  ],
+  "ep_length_mean_T": [
+    150
+  ],
+  "episode_limit_mean": [
+    1.0
+  ],
+  "episode_limit_mean_T": [
+    150
+  ],
+  "epsilon": [
+    1.0
+  ],
+  "epsilon_T": [
+    150
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 2.0
+    }
+  ],
+  "return_mean_T": [
+    150
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "return_std_T": [
+    150
+  ],
+  "test_ep_length_mean": [
+    150.0
+  ],
+  "test_ep_length_mean_T": [
+    150
+  ],
+  "test_episode_limit_mean": [
+    1.0
+  ],
+  "test_episode_limit_mean_T": [
+    150
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 15.3
+    }
+  ],
+  "test_return_mean_T": [
+    150
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 8.325262758616091
+    }
+  ],
+  "test_return_std_T": [
+    150
+  ]
+}

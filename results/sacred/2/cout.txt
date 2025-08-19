@@ -1,0 +1,7 @@
+qmix 0.17336273193359375
+qmix 1.4575462341308594
+E:\python\GradPS\src\components\episode_buffer.py:103: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\cb\pytorch_1000000000000\work\torch\csrc\utils\tensor_new.cpp:233.)
+  v = th.tensor(v, dtype=dtype, device=self.device)
+E:\python\GradPS\src\components\episode_buffer.py:103: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  v = th.tensor(v, dtype=dtype, device=self.device)
+time  1755624423.4233966 150

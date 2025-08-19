@@ -1,0 +1,99 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "E:\\python\\GradPS\\src",
+    "dependencies": [
+      "munch==2.5.0",
+      "numpy==1.21.6",
+      "sacred==0.8.2",
+      "torch==1.13.0"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [
+      {
+        "commit": "1f22b90396ae93bbda19508edc83f38538af3069",
+        "dirty": true,
+        "url": "https://github.com/xmu-rl-3dv/GradPS.git"
+      },
+      {
+        "commit": "1f22b90396ae93bbda19508edc83f38538af3069",
+        "dirty": true,
+        "url": "https://github.com/xmu-rl-3dv/GradPS.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources\\main_efbcb2972f222cb7e3d4b7d77f502680.py"
+      ],
+      [
+        "utils\\logging.py",
+        "_sources\\logging_cb64af7217f04ab93022c433c1285b4c.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"D:\\software\\Anaconda\\env\\pymarl\\lib\\site-packages\\sacred\\config\\captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"E:/python/GradPS/src/main.py\", line 38, in my_main\n    run_REGISTRY['default'](_run, config, _log)\n",
+    "  File \"E:\\python\\GradPS\\src\\run\\run.py\", line 68, in run\n    run_sequential(args=args, logger=logger)\n",
+    "  File \"E:\\python\\GradPS\\src\\run\\run.py\", line 233, in run_sequential\n    learner.train(episode_sample, runner.t_env, episode, check=True)\n",
+    "TypeError: train() got an unexpected keyword argument 'check'\n"
+  ],
+  "heartbeat": "2025-08-19T17:21:10.754705",
+  "host": {
+    "ENV": {},
+    "cpu": "Unknown",
+    "gpus": {
+      "driver_version": "537.70",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 2050",
+          "persistence_mode": false,
+          "total_memory": 4096
+        }
+      ]
+    },
+    "hostname": "LAPTOP-CLOI56UV",
+    "os": [
+      "Windows",
+      "Windows-10-10.0.26100-SP0"
+    ],
+    "python_version": "3.7.12"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2025-08-19T17:17:05.082726",
+  "status": "FAILED",
+  "stop_time": "2025-08-19T17:21:10.766949"
+}
